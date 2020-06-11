@@ -3,6 +3,7 @@
 function create() {
     python create.py $1
     source ~/ProjectInitializationAutomation/.env
+    echo $FILEPATH
     cd $FILEPATH$1
     git init
     git remote add origin git@github.com:$USERNAME/$1.git
