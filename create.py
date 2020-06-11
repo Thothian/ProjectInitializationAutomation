@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 path = os.getenv("FILEPATH")
-username = os.getenv("USERNAME")
+username = os.getenv("GITUSER")
 password = os.getenv("PASSWORD")
 
 def create():
