@@ -9,9 +9,9 @@ source ~/.my_commands.sh (Add this to your .bashrc file)
 ```
 
 ### Potential Issues:
-Will run into a error pushing initial commit if you haven't correctly generated and paired your ssh key with your github account
+1. Will run into a error pushing initial commit if you haven't correctly generated and paired your ssh key with your github account
 
-Filepaths
+2. Filepaths may be incorrect depending on where you clone the repository to
 
 ### Usage:
 ```bash
