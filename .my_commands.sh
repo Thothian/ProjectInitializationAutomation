@@ -1,13 +1,12 @@
 #!/bin/bash
 
 function create() {
-    echo $FILEPATH
+    cd ~/ProjectInitializationAutomation/
     python create.py $1
     source ~/ProjectInitializationAutomation/.env
-    
     cd $FILEPATH$1
     git init
-    git remote add origin git@github.com:$USERNAME/$1.git
+    git remote add origin git@github.com:$GITUSER/$1.git
     touch README.md
     git add .
     git commit -m "Initial commit"
